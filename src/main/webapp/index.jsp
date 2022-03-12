@@ -22,5 +22,9 @@
         
         <p>Comidas sanas todas las semanas!</p>
         <p>Push Selene</p>
+        
+        
+        <p>Push de Jorge Fraile</p>
+        <a href="vistaComidas.jsp"> <input type="button" value="Ver listado"></a>
     </body>
 </html>
