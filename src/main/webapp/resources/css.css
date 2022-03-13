@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-mar-2022, 14:24:29
+    Author     : diego
+*/
+body {
+    padding: 0;
+    margin: 0;
+}
+.contenedor {
+    width: 50%;
+    margin: 40px auto;
+    background-color: #E3E3E3;
+    border: 1px solid;
+    padding: 40px;
+}
+
+.contenedor-grid {
+    display: grid;
+    grid-template-areas: 'auto auto auto';
+    padding: 10px;
+    gap: 10px;
+}
+
+.contenedor-grid div {
+    border: 1px solid black;
+}
+
+h1,h2,h3,p {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+input:hover {background-color: #3e8e41}
+
+input:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.contenedor-tabla{
+    width: 75%;
+    margin: 40px auto;
+    padding: 20px;
+}
+
