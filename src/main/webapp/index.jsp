@@ -36,7 +36,7 @@
             </div>
 
             <h3>Comidas sanas todas las semanas!</h3>
-            <a href="vistaComidas.jsp"> <input type="button" value="Ver listado"></a>
+            <a href="${pageContext.request.contextPath}/ServletControlador?operacion=redirect"> <input type="button" value="Ver listado"></a>
         </div>
     </body>
 </html>
